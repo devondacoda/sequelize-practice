@@ -1,7 +1,7 @@
 {
   "name": "sequelize-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a small set of tests to check your understanding of defining models using Sequelize and Postgres. There's more to it that you should know (hooks, classMethods, associations, etc.), so don't just stop learning once you've completed these tests. However, if you complete them and fully understand how everything is working, you're on the right track.",
   "main": "index.js",
   "scripts": {
     "test": "mocha -w"
@@ -14,5 +14,17 @@
     "mocha": "^3.3.0",
     "pg": "^6.1.5",
     "sequelize": "^4.4.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devondacoda/sequelize-practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devondacoda/sequelize-practice/issues"
+  },
+  "homepage": "https://github.com/devondacoda/sequelize-practice#readme"
 }
