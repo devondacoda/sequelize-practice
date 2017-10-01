@@ -42,4 +42,8 @@ const User = db.define('user', {
   }
 });
 
+User.prototype.haveBirthday = function () {
+  return this.update({age: ++this.age});
+}
+
 module.exports = User;
